@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+     
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  body {
+      position: relative; 
+  }
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <div class="ezy__nav2 dark">
+    <nav class="navbar navbar-expand-lg  py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          Furniture.COM
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span>
+            <span></span>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+            <li class="nav-item"><a class="nav-link active fw-bolder fs-5 text-capitalize " href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-bolder fs-5 text-capitalize" href="#project">Furniture</a></li>
+            <li class="nav-item"><a class="nav-link fw-bolder fs-5 text-capitalize" href="#testimoial">testimoial</a></li>
+            <li class="nav-item"><a class="nav-link fw-bolder fs-5 text-capitalize" href="#blog">blog</a></li>
+            <li class="nav-item"><a class="nav-link fw-bolder fs-5 text-capitalize" href="#contect">contect</a></li>
+            
+          </ul>
+          <ul class="navbar-nav flex-row mb-2 mb-lg-0 ms-lg-3">
+            <li class="nav-item me-2">
+              
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <style>
+  .ezy__nav2 {
+    /* Bootstrap variables */
+    --bs-body-color:#F9DBBA;
+    --bs-body-bg:#F9DBBA ;
+  
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+  
+    background-color: var(--bs-body-bg);
+  }
+  
+  /* Gray Block Style */
+  .gray .ezy__nav2,
+  .ezy__nav2.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+  }
+  
+  /* Dark Gray Block Style */
+  .dark-gray .ezy__nav2,
+  .ezy__nav2.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(30, 39, 53);
+  }
+  
+  /* Dark Block Style */
+  .dark .ezy__nav2,
+  .ezy__nav2.dark {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(11, 23, 39);
+  
+  
+  }
+  
+  .ezy__nav2 .navbar-brand {
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--bs-body-color);
+  }
+  
+  .ezy__nav2 .navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span {
+    display: flex;
+    align-items: center;
+    height: 32px;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span>span {
+    position: relative;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span>span,
+  .ezy__nav2 .navbar-toggler>span>span::before,
+  .ezy__nav2 .navbar-toggler>span>span::after {
+    height: 2px;
+    background-color: var(--bs-body-color);
+    width: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all .35s ease-in-out;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span>span::before,
+  .ezy__nav2 .navbar-toggler>span>span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="false"]>span>span::before {
+    top: 7px;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="false"]>span>span::after {
+    bottom: 7px;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span {
+    background-color: transparent;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span::before {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span::after {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  
+  .ezy__nav2 .navbar-nav .nav-link {
+    color: var(--bs-body-color);
+    opacity: .6;
+  }
+  
+  .ezy__nav2 .navbar-nav .nav-link:hover,
+  .ezy__nav2 .navbar-nav .nav-link:focus,
+  .ezy__nav2 .navbar-nav .nav-link.active {
+    color: var(--bs-body-color);
+    opacity: 1;
+  }
+  
+  @media (min-width: 992px) {
+    .ezy__nav2 .navbar-nav .nav-link {
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+  }
+  
+  /* btns */
+  .ezy__nav2 .btn-primary {
+    background-color: var(--ezy-theme-color);
+    border-color: var(--ezy-theme-color);
+  }
+  
+  .ezy__nav2 .btn-primary:hover {
+    background-color: rgba(var(--ezy-theme-color-rgb), .9);
+    border-color: rgba(var(--ezy-theme-color-rgb), .9);
+  }
+  
+  .ezy__nav2 .btn-outline-primary {
+    color: var(--ezy-theme-color);
+    border-color: var(--ezy-theme-color);
+  }
+  
+  .ezy__nav2 .btn-outline-primary:hover {
+    color: #fff;
+    background-color: rgba(var(--ezy-theme-color-rgb), .9);
+    border-color: rgba(var(--ezy-theme-color-rgb), .9);
+  }
+
+
+
+
+  .navbar .navbar-nav .nav-item {
+  position: relative;
+  margin-left: 7px;
+}
+
+
+
+
+ .navbar-nav .nav-item:before
+{
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    width: 2px;
+    height: 0px;
+    background:white;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.navbar .navbar-nav .nav-item:after
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background:white;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.navbar .navbar-nav .nav-item:hover:before
+{
+    height: 100%;
+}
+
+.navbar .navbar-nav .nav-item:hover:after
+{
+    opacity: 0;
+    top: 100%;
+}
+
+
+
+  </style>
+
+
+
+  
+
+<!-- teb id-1 -->
+<div id="home">
+   <style>
+
+    .header{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+     img{
+      mix-blend-mode:multiply;
+     }
+
+     .header__blog13-btn {
+    color: #eff0f3;
+    border-color:#f6f7fa;
+  }
+  
+  .header__blog13-btn:hover {
+    background-color: #cad2f3;
+    border-color: #3354c9;
+    color:  #3354c9 !important;
+
+  }
+   </style>
+    <header >
+        <div class="container-fluid header " style="background-color: #1F316F; " >
+            <div class="row  d-flex align-items-center flex-wrap ">
+               <div class="col-lg-6 mt-5 pb-1  " >
+                   <h3 class=" display-5 mt-2 fw-bolder ms-5 text-white text-capitalize lead animate__animated  animate__backInDown  ">best Furniture </h3>
+                   <h1 class=" display-2 fw-bolder ms-5  text-white lead  animate__animated  animate__backInLeft"> For All Your
+                    Furniture Needs</h1>
+                     <p class=" ms-5 text-white  mt-1 text-lowercase text-capitalize lead animate__animated animate__backInLeft">Lorem ipsum, dolor sit amet consectetur adipisicing <br> elit. Minus quidem maiores <br> perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+                   
+                   <div class=" mt-3 animate__animated animate__backInLeft "> <button class="btn header__blog13-btn ms-5 fw-bolder text-capitalize">Read More</button></span>
+
+                    <span><button class="btn header__blog13-btn ms-5   fw-bolder text-capitalize">Read More</button></span>
+                      </div>
+                   
+                  
+
+               </div>
+               <div class="col-lg-6  text-center  mt-5  " >
+     
+     <img src="https://img.freepik.com/premium-vector/realistic-vector-gray-sofa-couch-white_134830-675.jpg?semt=ais_hybrid"  height="650px" width="100%"  alt="" >
+               </div>
+            </div>
+        </div>
+       
+   </header>
+
+
+
+
+
+    <!-- the start  funtatoner  -->
+
+
+    <div id="project">
+   <!-- pordcation section the start -->
+   <div class="container mt-5 mb-5">
+    <div class="row text-center">
+       <h3 class="display-5 text-capitalize fs-1 fw-bolder" style="color:  #3354c9;"> Furniture
+        </h3>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6 col-sm-6 col-xl-3 mt-5 mb-5">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="https://cdn.pixabay.com/photo/2019/04/16/08/00/interior-4131124_640.jpg">
+                        <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZRHQmwSXYveMYBQwj2LR0bvJqxMbT18hqw&s">
+                    </a>
+                    <span class="product-new-label">new</span>
+                    <ul class="product-links">
+                        <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                        <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                    <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+                </div>
+                <div class="product-content">
+                    <span class="product-category"><a href="#">bedroom</a></span>
+                    <h3 class="title"><a href="#"> bed , nightstand</a></h3>
+                    <div class="price">50.00$ – 200.00$</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xl-3  mt-5 mb-5">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrNXf0I177sNoYpjIsRPNoNKH2MY54yFeLKA&s">
+                        <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1McIgoe9nSBiVRO67Q9phzVoeZlm90gWx1g&s">
+                    </a>
+                    <span class="product-sale-label">sale</span>
+                    <ul class="product-links">
+                        <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                        <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                    <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+                </div>
+                <div class="product-content">
+                    <span class="product-category"><a href="#">Living room</a></span>
+                    <h3 class="title"><a href="#">sofas ,coffee tabel </a></h3>
+                    <div class="price">49.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xl-3  mt-5 mb-5">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5GWrvJC8FqombRn_evqzVYQDvhshtUbC0Q&s">
+                        <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7PEipGuhz8bshsPNGGPuALxfxH7odKXe5A&s">
+                    </a>
+                    <span class="product-new-label">new</span>
+                    <ul class="product-links">
+                        <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                        <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                    <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+                </div>
+                <div class="product-content">
+                    <span class="product-category"><a href="#">dining room</a></span>
+                    <h3 class="title"><a href="#">table ,charirs</a></h3>
+                    <div class="price">69.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xl-3  mt-5 mb-5">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj3A5w5DxovmVfOlyoQ5kfahPlyN89gojucQ&s">
+                        <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBX1kdS8mkSeZD5143sNQVbJDNgnvbNL_Btg&s">
+                    </a>
+                    <span class="product-sale-label">sale</span>
+                    <ul class="product-links">
+                        <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                        <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                    <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+                </div>
+                <div class="product-content">
+                    <span class="product-category"><a href="#">gest-room</a></span>
+                    <h3 class="title"><a href="#">shofa tabel chairs  </a></h3>
+                    <div class="price">29.99$</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container  ">
+  <div class="row text-center">
+      
+  </div>
+  <div class="row">
+      <div class="col-md-6 col-sm-6  col-xl-3  mt-5 mb-5">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#" class="image">
+                      <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV2_qAMO_-IBYI3cPEP-_4i39fRG5d3ajikw&s">
+                      <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ83TPmXtyE1wTgFoer3X0jURW3ujv6DMGew&s">
+                  </a>
+                  <span class="product-new-label">new</span>
+                  <ul class="product-links">
+                      <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                      <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                  </ul>
+                  <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+              </div>
+              <div class="product-content">
+                  <span class="product-category"><a href="#">offce funrnituer</a></span>
+                  <h3 class="title"><a href="#">chairs, table</a></h3>
+                  <div class="price">50.00$ – 200.00$</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xl-3 mt-5 mb-5">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#" class="image">
+                      <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrY2jlRdSUBGC5ZprMPzotmpGh7tVkiJhOBQ&s">
+                      <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWqygneJ5XvnYwwnHI1wCQQYyv_CIVuvEDqQ&s">
+                  </a>
+                  <span class="product-sale-label">sale</span>
+                  <ul class="product-links">
+                      <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                      <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                  </ul>
+                  <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+              </div>
+              <div class="product-content">
+                  <span class="product-category"><a href="#">kids room </a></span>
+                  <h3 class="title"><a href="#">kind bedes</a></h3>
+                  <div class="price">49.99$</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-6  col-xl-3  mt-5 mb-5">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#" class="image">
+                      <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb7Kx1hJfVVhDgY4ZN3BqNJvxr4KJSb_TxRQ&s">
+                      <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIjwsWkm-m_9nONAnM9lN1QP5bWdLLNwH_uA&s">
+                  </a>
+                  <span class="product-new-label">new</span>
+                  <ul class="product-links">
+                      <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                      <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                  </ul>
+                  <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+              </div>
+              <div class="product-content">
+                  <span class="product-category"><a href="#">kitchen</a></span>
+                  <h3 class="title"><a href="#">rug drapes</a></h3>
+                  <div class="price">69.99$</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-6  col-xl-3 mt-5 mb-5">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#" class="image">
+                      <img class="pic-1" src="https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=600">
+                      <img class="pic-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY87KsRIPLvFtBBOI3FkGw4ai4DwNUxtgmXA&s">
+                  </a>
+                  <span class="product-sale-label">sale</span>
+                  <ul class="product-links">
+                      <li><a data-tip="Add to Wishlist" href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a data-tip="Compare" href="#"><i class="fa fa-random"></i></a></li>
+                      <li><a data-tip="Quick View" href="#"><i class="fa fa-eye"></i></a></li>
+                  </ul>
+                  <a href="#" class="add-cart"><i class="fas fa-cart-plus"></i>Add to cart</a>
+              </div>
+              <div class="product-content">
+                  <span class="product-category"><a href="#">decir & furniture</a></span>
+                  <h3 class="title"><a href="#">kids ,beads</a></h3>
+                  <div class="price">29.99$</div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+ </div>
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+  h1{ padding: 0 0 30px; }
+  a:hover{ text-decoration: none; }
+  .product-grid{
+      font-family: "Fraunces", serif;
+      text-align: center;
+      border-radius: 10px 10px;
+      padding: 10px 10px;
+      border:1px solid #1F316F;
+      overflow: hidden;
+      margin: 0 auto;
+  }
+  .product-grid .product-image{
+      border-radius: 10px 10px;
+      overflow: hidden;
+      position: relative;
+      border:1px solid #1F316F;
+  }
+  .product-grid .product-image a.image{ display: block; }
+  .product-grid .product-image img{
+      width: 100%;
+      height: auto;
+  }
+  .product-image .pic-1{
+      opacity: 1;
+      backface-visibility: hidden;
+      transition: all 0.4s ease-out 0s;
+  }
+  .product-grid:hover .product-image .pic-1{ opacity: 0; }
+  .product-image .pic-2{
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      backface-visibility: hidden;
+      transform: scale(3);
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all 0.4s ease-out 0s;
+  }
+  .product-grid:hover .product-image .pic-2 {
+      opacity: 1;
+      transform: scale(1);
+  }
+  .product-grid .product-new-label,
+  .product-grid .product-sale-label{
+      color: #fff;
+      background: #1F316F;
+      font-size: 13px;
+      font-weight: 400;
+      padding: 3px 9px;
+      text-transform: uppercase;
+      border-radius: 5px 5px;
+      opacity: 1;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      transition: all 0.3s ease-in-out;
+  }
+  .product-grid:hover .product-new-label,
+  .product-grid:hover .product-sale-label{
+      opacity: 0;
+  }
+  .product-grid .product-links{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      opacity: 0;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      transition: all .3s ease 0.3s;
+  }
+  .product-grid:hover .product-links{ opacity: 1; }
+  .product-grid .product-links li{
+      margin: 0 0 5px;
+      display: block;
+  }
+  .product-grid .product-links li:last-child{ margin: 0; }
+  .product-grid .product-links li a{
+      color: #aaa;
+      background-color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 40px;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin: 0;
+      display: block;
+      position: relative;
+      transition: all 0.3s ease 0.1s;
+  }
+  .product-grid .product-links li a:hover{
+      color: #fff;
+      background-color: #1F316F;
+      border-color:#1F316F;
+  }
+  .product-grid .product-links li a i{ line-height:inherit; }
+  .product-grid .product-links li a:before,
+  .product-grid .product-links li a:after{
+      content: attr(data-tip);
+      color: #fff;
+      background: #1F316F;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 5px 10px;
+      white-space: nowrap;
+      display: none;
+      border-radius: 5px 5px;
+      transform: translateY(-50%);
+      position: absolute;
+      right: 53px;
+      top: 50%;
+      z-index: 1;
+  }
+  .product-grid .product-links li a:after{
+      content: "";
+      height: 15px;
+      width: 15px;
+      padding: 0;
+      border-radius: 0;
+      transform: translateY(-50%) rotate(45deg);
+      right: 50px;
+      z-index: 0;
+  }
+  .product-grid .product-links li a:hover:before,
+  .product-grid .product-links li a:hover:after{
+      display: block;
+  }
+  .product-grid .add-cart{
+      color: #fff;
+      background: #1F316F;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      opacity: 0;
+      text-transform: uppercase;
+      padding: 11px 12px 10px;
+      display: block;
+      transition: all .3s ease;
+  }
+  .product-grid .add-cart i{ margin: 0 5px 0 0; }
+  .product-grid:hover .add-cart{ opacity: 1; }
+  .product-grid .product-content{ padding: 10px 0 0; }
+  .product-grid .product-category{
+      font-size: 14px;
+      text-transform:uppercase;
+      margin-bottom: 5px;
+      display: block;
+  }
+  .product-grid .product-category a{
+      color: #1F316F;
+      transition: all .4s ease 0s;
+  }
+  .product-grid .title{
+      font-size: 17px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0 0 5px;
+  }
+  .product-grid .title a{
+      color: #000;
+      transition: all 0.3s ease 0s;
+  }
+  .product-grid .title a:hover{ color: #1F316F; }
+  .product-grid .price{
+      color: #1F316F;
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0 0 5px;
+  }
+  @media screen and (max-width: 990px){
+      .product-grid{ margin-bottom: 30px; }
+  }</style>
+
+
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- testiomonial the  start  -->
+
+<div id="testimoial">
+
+<section> 
+   <style>h1{ padding: 0 0 30px; }
+    .testimonial{
+        text-align: center;
+
+    }
+    .testimonial .testimonial-content{
+        padding: 30px 50px;
+        background:  #1F316F;
+        border-radius: 100px 0;
+        position: relative;
+        margin: 0 10px 35px;
+    }
+    .testimonial .testimonial-content:after{
+        content: "";
+        position: absolute;
+        border-top: 10px solid  #1F316F;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        bottom: -9px;
+        left: 47%;
+    }
+    .testimonial .description{
+        font-size: 14px;
+        color: #fdfffc;
+        line-height: 25px;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .testimonial .pic{
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 15px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .testimonial .pic img{
+        width: 100%;
+        height: auto;
+    }
+    .testimonial .testimonial-title{
+        display: block;
+        font-size: 17px;
+        font-weight: bold;
+        color: #011627;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0 0 7px 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .testimonial .post{
+        display: block;
+        font-size: 14px;
+        color:  #1F316F;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .owl-theme .owl-controls{
+        border-top: 1px solid #d5d5d5;
+        margin-top: 40px;
+        padding-top: 30px;
+    }
+    .owl-theme .owl-controls .owl-buttons div{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background:  #1F316F;
+        border-radius: 4px;
+        opacity: 1;
+        padding: 0;
+    }
+    .owl-prev:before,
+    .owl-next:before{
+        content: "\f053";
+        font-family: "Font Awesome 5 Free"; font-weight: 900;
+        color: #fdfffc;
+    }
+    .owl-next:before{
+        content: "\f054";
+    }
+    .owl-prev:hover:before,
+    .owl-next:hover:before{
+        color: #011627;
+    }</style>
+  
+  <div class="container mt-5 mb-5">
+  <div class="row text-center">
+      <h1 class="text-capitalize fw-1 fw-bolder" style="color:  #3354c9;">testimonial</h1>
+  </div>
+
+  <div class="row">
+      <div class="col-md-12">
+          <div id="testimonial-slider" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+              <div class="owl-item" style="width: 570px;">
+                   <div class="testimonial">
+                      <div class="testimonial-content">
+                          <p class="description">
+                              " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum cumque dolore ducimus est exercitationem explicabo molestiae, velit! Eum nam porro voluptate. A aliquid asperiores assumenda consectetur cum dolore doloremque eius error fugiat id in ipsam ipsum laborum libero minus nam. "
+                          </p>
+                      </div>
+                      <div class="pic">
+                          <img src="https://cdn.yahoobaba.net/testimonial/demo40/images/img-1.jpg" alt="">
+                      </div>
+                      <h3 class="testimonial-title">Williamson</h3>
+                      
+                  </div>
+              </div>
+              <div class="owl-item" style="width: 570px;">
+                  <div class="testimonial">
+                      <div class="testimonial-content">
+                          <p class="description">
+                              " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum cumque dolore ducimus est exercitationem explicabo molestiae, velit! Eum nam porro voluptate. A aliquid asperiores assumenda consectetur cum dolore doloremque eius error fugiat id in ipsam ipsum laborum libero minus nam. "
+                          </p>
+                      </div>
+                      <div class="pic">
+                          <img src="https://cdn.yahoobaba.net/testimonial/demo40/images/img-2.jpg" alt="">
+                      </div>
+                      <h3 class="testimonial-title">kristiana</h3>
+                  
+                  </div>
+              </div>
+              <div class="owl-item" style="width: 570px;">
+                  <div class="testimonial">
+                      <div class="testimonial-content">
+                          <p class="description">
+                              " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum cumque dolore ducimus est exercitationem explicabo molestiae, velit! Eum nam porro voluptate. A aliquid asperiores assumenda consectetur cum dolore doloremque eius error fugiat id in ipsam ipsum laborum libero minus nam. "
+                          </p>
+                      </div>
+                      <div class="pic">
+                          <img src="https://cdn.yahoobaba.net/testimonial/demo40/images/img-3.jpg" alt="img">
+                      </div>
+                      <h3 class="testimonial-title">Steve Thomas</h3>
+                
+                  </div>
+              </div>
+          </div>
+          <div class="owl-controls clickable">
+              <div class="owl-buttons">
+                  <div class="owl-prev"></div>
+                  <div class="owl-next"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<script>window.onload = function() {
+  $("#testimonial-slider").owlCarousel({
+      items:2,
+      itemsDesktop:[1199,2],
+      itemsDesktopSmall:[979,1],
+      itemsTablet:[768,1],
+      itemsMobile:[600,1],
+      pagination:false,
+      navigation:true,
+      navigationText:["",""],
+      slideSpeed:1000,
+      autoPlay:true
+  });
+}</script>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</section>
+
+</div>
+
+
+ <!-- blog the section the start -->
+
+ <div id="blog">
+<section class="ezy__blog13 light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="ezy__blog13-heading text-center text-capitalize" style="color:  #3354c9;"> Blogs</h1>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <!-- card starts -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mt-4 mt-md-5">
+                <div class="position-relative">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                  <img
+                    class="ezy__blog13-author"
+                    src="https://cdn.easyfrontend.com/pictures/users/user2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <a href="">
+                    <h5 class="ezy__blog13-card-title mt-3">
+                    Lorem ipsum dolor sit amet consectetur 
+                    </h5>
+                  </a>
+                  <p class="ezy__blog13-date">August 10th, 2024</p>
+                  <p class="ezy__blog13-card-text mb-4">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-sm ezy__blog13-btn mb-2">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- card ends -->
+            <!-- card starts -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mt-4 mt-md-5">
+                <div class="position-relative">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/276566/pexels-photo-276566.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                  <img
+                    class="ezy__blog13-author"
+                    src="https://cdn.easyfrontend.com/pictures/users/user3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <a href="">
+                    <h5 class="ezy__blog13-card-title mt-3">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    </h5>
+                  </a>
+                  <p class="ezy__blog13-date">March 21th, 2024</p>
+                  <p class="ezy__blog13-card-text mb-4">
+                    Sed ut in perspiciatis unde omnis iste natus error sit tatem doloremque laudantium.
+                  </p>
+                  <a href="#" class="btn btn-sm ezy__blog13-btn mb-2">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- card ends -->
+            <!-- card starts -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mt-4 mt-md-5">
+                <div class="position-relative">
+                  <img class="card-img-top" src="https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                  <img
+                    class="ezy__blog13-author"
+                    src="https://cdn.easyfrontend.com/pictures/users/user17.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <a href="">
+                    <h5 class="ezy__blog13-card-title mt-3"> Lorem ipsum dolor sit amet, consectetur </h5>
+                  </a>
+                  <p class="ezy__blog13-date">September 11th, 2024</p>
+                  <p class="ezy__blog13-card-text mb-4">
+                    It’s no secret that the digital industry is booming. From exciting startups to global brands.
+                  </p>
+                  <a href="#" class="btn btn-sm ezy__blog13-btn mb-2">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- card ends -->
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+
+    </div>
+  <style>
+  .ezy__blog13 {
+    /* Bootstrap variables */
+    --bs-body-bg:white;
+  
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-card-bg:  #bfc5da;
+  
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    overflow: hidden;
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  @media (min-width: 768px) {
+    .ezy__blog13 {
+      padding: 100px 0;
+    }
+  }
+  
+  /* Gray Block Style */
+  .gray .ezy__blog13,
+  .ezy__blog13.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+  
+    /* Easy Frontend variables */
+    --ezy-card-bg:white;
+  }
+  
+  /* Dark Gray Block Style */
+  .dark-gray .ezy__blog13,
+  .ezy__blog13.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(30, 39, 53);
+  
+    /* Easy Frontend variables */
+    --ezy-card-bg: rgb(11, 23, 39);
+  }
+  
+  /* Dark Block Style */
+  .dark .ezy__blog13,
+  .ezy__blog13.dark {
+    /* Bootstrap variables */
+    --bs-body-color:#28303b;
+    --bs-body-bg: rgb(11, 23, 39);
+  
+    /* Easy Frontend variables */
+    --ezy-card-bg: rgb(30, 39, 53);
+  }
+  
+  .ezy__blog13-heading {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .ezy__blog13-heading {
+      font-size: 45px;
+    }
+  }
+  
+  /* card */
+  .ezy__blog13 .card {
+    background-color: var(--ezy-card-bg);
+    border: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .ezy__blog13-author {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    left: 25px;
+  }
+  
+  .ezy__blog13-card-title {
+    font-size: 19px;
+    
+  }
+  
+  .ezy__blog13-date {
+    font-size: 17px;
+    opacity: 0.8;
+  }
+  
+  .ezy__blog13-card-text {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .ezy__blog13-btn.btn-sm {
+    padding: 9px 25px;
+  }
+  
+  .ezy__blog13-btn:not(.btn-sm) {
+    padding: 12px 30px;
+  }
+  
+  .ezy__blog13-btn {
+    color: #1F316F;
+    border-color:#1F316F;
+  }
+  
+  .ezy__blog13-btn:hover {
+    background-color: #1F316F;
+    border-color: #1F316F;
+    color: #fff !important;
+  }
+  
+  .ezy__blog13 a {
+    text-decoration: none;
+    color: var(--bs-body-color);
+  }
+  
+  .ezy__blog13 a:hover {
+    color: var(--ezy-theme-color);
+  }
+  </style>
+
+  </section>
+
+
+
+
+  <div id="contect">
+
+<section class="ezy__contact7 light">
+	<div class="container">
+		<div class="row justify-content-between py-4">
+			<div class="col-lg-6 order-2 mb-3 mb-lg-0 mt-5">
+				<div class="ezy__contact7-bg-holder h-100">
+        
+          
+          <iframe src= 
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2233913121413!2d77.4051603706222!3d28.50292593193056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks!5e0!3m2!1sen!2sin!4v1585040658255!5m2!1sen!2sin"
+                  width="800"
+                  marging="bottom-0"
+                  height="500"
+                  frameborder="0"
+                  style="border:0;"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"> 
+          </iframe> 
+      
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="">
+					<div class="p-md-5">
+						<h2 class="ezy__contact7-heading mb-3" style="color:  #3354c9;">Contact Us</h2>
+
+						<form>
+							<div class="form-group mb-3 mt-2">
+								<input type="text" class="form-control" placeholder="Enter Name" />
+							</div>
+							<div class="form-group mb-3 mt-2">
+								<input type="email" class="form-control" placeholder="Enter Email" />
+							</div>
+							<div class="form-group mb-3">
+								<textarea name="message" class="form-control" placeholder="Enter Message"
+									rows="3"></textarea>
+							</div>
+							<div class="text-end">
+								<button type="submit" class="btn btn-primary ezy__contact7-btn">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+ 
+</section>
+
+
+</div>
+<style>
+.ezy__contact7 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: #1F316F;
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 70px 0;
+}
+
+
+/* Gray Block Style */
+.gray .ezy__contact7,
+.ezy__contact7.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__contact7,
+.ezy__contact7.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgba(201, 208, 219, 0.226);
+}
+
+/* Dark Block Style */
+.dark .ezy__contact7,
+.ezy__contact7.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+@media (min-width: 768px) {
+	.ezy__contact7 {
+		padding: 100px 0;
+	}
+}
+
+.ezy__contact7-bg-holder {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 150px;
+	width: 50vw;
+}
+
+.ezy__contact7-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__contact7-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__contact7-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.ezy__contact7 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	background: rgba(65, 104, 197, 0.14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.ezy__contact7 .form-control:focus {
+	border-color:#1F316F;
+	box-shadow: none;
+}
+
+.ezy__contact7-btn {
+	padding: 12px 30px;
+	color: #1F316F;
+	background-color: #e9efff;
+	border-color: #1F316F;
+}
+
+.ezy__contact7-btn:hover {
+	background-color: #1F316F;
+	border-color: #1F316F;
+	color: #ffffff;
+}
+</style>
+
+
+<section class="ezy__footer15 light">
+  <div class="container">
+    <div class="row text-center text-sm-start mb-md-5">
+      <div class="col-lg-4">
+        <h2 class="fw-bold">Furniture .com</h2>
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <p class="ezy__footer15-text opacity-50 mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <h5 class="mt-4 mt-lg-5 mb-3">Follow Us</h5>
+        <ul class="ezy__footer15-social justify-content-center justify-content-sm-start nav mb-4 mb-lg-0">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class="mb-3">Menu</h5>
+        <ul class="nav flex-column ezy__footer15-quick-links">
+          <li>
+            <a href="#!">About</a>
+          </li>
+          <li>
+            <a href="#!">Blog</a>
+          </li>
+          <li>
+            <a href="#!">Contact</a>
+          </li>
+          <li>
+            <a href="#!">Pages</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class="mb-3">Blog</h5>
+        <ul class="nav flex-column ezy__footer15-quick-links">
+          <li>
+            <a href="#!">Quote</a>
+          </li>
+          <li>
+            <a href="#!">Post</a>
+          </li>
+          <li>
+            <a href="#!">Video Post</a>
+          </li>
+          <li>
+            <a href="#!">Gallery</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class="mb-3">Company</h5>
+        <ul class="nav flex-column ezy__footer15-quick-links">
+          <li>
+            <a href="#!">Select</a>
+          </li>
+          <li>
+            <a href="#!">Services</a>
+          </li>
+          <li>
+            <a href="#!">Payment</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class="mb-3">Services</h5>
+        <ul class="nav flex-column ezy__footer15-quick-links">
+          <li>
+            <a href="#!">Option</a>
+          </li>
+          <li>
+            <a href="#!">Privling Page</a>
+          </li>
+          <li>
+            <a href="#!">Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="row d-flex justify-content-between align-items-center text-center text-lg-start">
+      <div class="col-md-6">
+        <p class="opacity-50 mb-0 mt-1">Copyright &copy; Easy Frontend, All rights reserved</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="ezy__footer15-nav nav justify-content-center justify-content-md-end mt-1">
+          <li class="nav-item">
+            <a class="opacity-50 nav-link" href="#!">Privacy</a>
+          </li>
+          <li class="nav-item">
+            <a class="opacity-50 nav-link" href="#!">Security</a>
+          </li>
+          <li class="nav-item">
+            <a class="opacity-50 nav-link" href="#!">Terms</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.ezy__footer15 {
+  /* Bootstrap variables */
+  --bs-body-color: white;
+  --bs-body-bg:   #1F316F;
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-body-color-invert: rgb(246, 246, 246);
+  --ezy-icon-shadow: 0 7px 16px 0 rgba(39, 42, 52, 0.12);
+  --ezy-hr-color: rgba(117, 117, 117, 0.39);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  padding: 60px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .ezy__footer15 {
+    padding: 80px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__footer15,
+.ezy__footer15.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* Easy Frontend variables */
+  --ezy-body-color-invert: rgb(255, 255, 255);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__footer15,
+.ezy__footer15.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(64, 65, 86);
+
+  /* Easy Frontend variables */
+  --ezy-body-color-invert: rgb(46, 47, 65);
+  --ezy-icon-shadow: none;
+}
+
+.dark .ezy__footer15,
+.ezy__footer15.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(46, 47, 65);
+
+  /* Easy Frontend variables */
+  --ezy-body-color-invert: rgb(64, 65, 86);
+  --ezy-icon-shadow: none;
+}
+
+.ezy__footer15-nav .nav-link {
+  color: var(--bs-body-color);
+}
+
+.ezy__footer15-nav .nav-link:hover {
+  color: var(--bs-body-color);
+  opacity: 0.8;
+}
+
+.ezy__footer15-social li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.ezy__footer15-social li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.ezy__footer15-social li a {
+  color: var(--bs-body-color);
+  background-color:  #1F316F;
+  box-shadow: var(--ezy-icon-shadow);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.ezy__footer15-social li a:hover {
+  background-color:  #d2d7eb3a;
+  color: #ffffff;
+}
+
+.ezy__footer15-nav .nav-link {
+  color: var(--bs-body-color);
+}
+
+.ezy__footer15-nav .nav-link:hover {
+  color: var(--bs-body-color);
+  opacity: 0.8;
+}
+
+.ezy__footer15-quick-links li {
+  margin-bottom: 8px;
+}
+
+.ezy__footer15-quick-links li a {
+  color: var(--bs-body-color);
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.ezy__footer15-quick-links li a:hover {
+  color: var(--bs-body-color);
+  opacity: 1;
+}
+
+.ezy__footer15 hr {
+  background-color: var(--ezy-hr-color);
+}
+</style>
+
+
+
+
+</body>
+</html>
+
+
+
